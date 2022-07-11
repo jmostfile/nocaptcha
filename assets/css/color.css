@@ -1,0 +1,134 @@
+a {
+  color: #363636;
+}
+a:hover {
+    color: #0a0a0a;
+}
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+    color: #0a0a0a;
+}
+.bg-ghostwhite {
+  background-color: #F8F8FF !important;
+}
+.bg-red {
+  background-color: #ff6663 !important;
+}
+.bg-green {
+  background-color: #719f40 !important;
+}
+.bg-orange {
+  background-color: #f26f2c !important;
+}
+.bg-yellow {
+  background-color: #fbc244 !important;
+}
+.bg-blue {
+  background-color: #70c8c0 !important;
+}
+.bg-pink {
+  background-color: #f69c86 !important;
+}
+.text-red {
+  color: #ff6663 !important;
+}
+.text-green {
+  color: #719f40 !important;
+}
+.text-orange {
+  color: #f26f2c !important;
+}
+.text-yellow {
+  color: #fbc244 !important;
+}
+.text-blue {
+  color: #70c8c0 !important;
+}
+.text-dblue {
+  color: #2d5485 !important;
+}
+.text-pink {
+  color: #f69c86 !important;
+}
+.text-gold {
+  color: #CFB53B !important;
+}
+.bottom-gradient-border {
+  --borderWidth: 4px;
+}
+.bottom-gradient-border:after {
+  content: '';
+  position: absolute;
+  bottom: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(var(--borderWidth) * 1);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.fa-facebook, .fa-facebook-square , .fa-facebook-f {
+    color: #3b5998;
+}
+.fab-facebook {
+    background-color: #3b5998;
+}
+.fa-twitter, .fa-twitter-square {
+    color: #00aced;
+}
+.fab-twitter {
+    background-color: #00aced;
+}
+.fa-google-plus, .fa-google-plus-g, .fa-google-plus-square {
+    color: #dd4b39;
+}
+.fa-youtube, .fa-youtube-play, .fa-youtube-square {
+    color: #bb0000;
+}
+.fa-tumblr, .fa-tumblr-square {
+    color: #32506d;
+}
+.fa-vine {
+    color: #00bf8f;
+}
+.fa-flickr {
+    color: #ff0084;
+}
+.fa-vimeo-square {
+    color: #aad450;
+}
+.fa-pinterest, .fa-pinterest-square {
+    color: #cb2027;
+}
+.fa-linkedin, .fa-linkedin-square {
+    color: #007bb6;
+}
+.fa-instagram {
+    color: #517fa4;
+}
+.fa-spotify {
+    color: #1ED760;
+}
+.fa-twitch {
+    color: #6441a5;
+}
+.fa-discord {
+    color: #5865F2;
+}
+.fa-android {
+    color: #a4c639;
+}
+.fa-ios {
+  color: #949494;
+}

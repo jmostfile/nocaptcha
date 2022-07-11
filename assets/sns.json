@@ -1,0 +1,56 @@
+{
+    "facebook": {
+        "title": "Facebook Edenra",
+        "url": "https://www.facebook.com/EdenraFB",
+        "icon": "facebook",
+        "class": "fa-facebook"
+    },
+    "twitter": {
+        "title": "Twitter Edenra",
+        "url": "https://twitter.com/EdenraTwt",
+        "icon": "twitter",
+        "class": "fa-twitter"
+    },
+    "instagram": {
+        "title": "Instagram Edenra",
+        "url": "https://www.instagram.com/edenraig/",
+        "icon": "instagram",
+        "class": "fa-instagram"
+    },
+    "tiktok": {
+        "title": "TikTok Edenra",
+        "url": "https://www.tiktok.com/@edenratiktok",
+        "icon": "",
+        "class": ""
+    },
+    "youtube": {
+        "title": "YouTube Edenra",
+        "url": "https://www.youtube.com/channel/UCSKOVhLH9AOobKuDxre1ZVA",
+        "icon": "youtube",
+        "class": "fa-youtube"
+    },
+    "twitch": {
+        "title": "Twitch Edenra",
+        "url": "https://www.twitch.tv/edenratwitch",
+        "icon": "twitch",
+        "class": "fa-twitch"
+    },
+    "discord": {
+        "title": "Discord Edenra",
+        "url": "https://discord.gg/qaQa4we7DK",
+        "icon": "discord",
+        "class": "fa-discord"
+    },
+    "android": {
+        "title": "Android Edenra",
+        "url": "#",
+        "icon": "android",
+        "class": "fa-android"
+    },
+    "ios": {
+        "title": "iOS Edenra",
+        "url": "#",
+        "icon": "apple",
+        "class": "fa-ios"
+    }
+}
